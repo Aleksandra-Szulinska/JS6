@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Projects.css">
+    <script src="https://kit.fontawesome.com/436a5dbe56.js" crossorigin="anonymous"></script>
+    <title>JavaSccript Prjects</title>
+</head>
+<body>
+    <div class="go-back">
+        <a href="Projects.html"><i class="fa-solid fa-delete-left fa-xl" style="color: #000000;"><p>GO BACK</p></i></a>
+    </div>
+
+    <h1 class="H1Calculator"><img src="IMAGES/Calculator-IMG.png">Calculators</h1>
+
+    <div class="calculator">
+        <div class="calculator-display" id="display">0</div>
+        <div class="calculator-buttons">
+            <div class="button" onclick="appendToDisplay('*')">x</div>
+            <div class="button" onclick="appendToDisplay('/')">/</div>
+            <div class="button" onclick="appendToDisplay('+')">+</div>
+            <div class="button" onclick="appendToDisplay('-')">-</div>           
+            <div class="button" onclick="appendToDisplay('7')">7</div>
+            <div class="button" onclick="appendToDisplay('8')">8</div>
+            <div class="button" onclick="appendToDisplay('9')">9</div>
+            <div class="button" onclick="appendToDisplay('.')">.</div>
+            <div class="button" onclick="appendToDisplay('4')">4</div>
+            <div class="button" onclick="appendToDisplay('5')">5</div>
+            <div class="button" onclick="appendToDisplay('6')">6</div>
+            <div class="button" onclick="calculateResult()">=</div>  
+            <div class="button" onclick="appendToDisplay('1')">1</div>
+            <div class="button" onclick="appendToDisplay('2')">2</div>
+            <div class="button" onclick="appendToDisplay('3')">3</div>
+            <div class="button" onclick="appendToDisplay('0')">0</div>
+            <div class="button" onclick="clearDisplay()">C</div>            
+        </div>
+    </div>
+
+
+    
+
+<script src="Calculator.js"></script> 
+</body>
+</html>
